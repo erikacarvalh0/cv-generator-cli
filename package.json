@@ -1,0 +1,29 @@
+{
+  "name": "cv-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate your resume in different languages.",
+  "main": "bin/index.js",
+  "scripts": {
+    "generate": "node server-generate.js",
+    "serve": "live-server"
+  },
+  "author": "Erika Carvalho - @erika.carvalh0",
+  "license": "ISC",
+  "keywords": [
+    "cli",
+    "resume"
+  ],
+  "bin": {
+    "cv-cli": "./bin/index.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.1",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "prompt-sync": "^4.2.0",
+    "yargs": "^16.1.1"
+  }
+}

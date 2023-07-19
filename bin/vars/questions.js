@@ -1,0 +1,31 @@
+exports.questions = {
+	sectionTitle: "What's the section title?",
+	sectionType: "And what about it's type?",
+	itemContent: "What's the item content?",
+	addNew: "Want to add another item?",
+	itemTitle: "What's the item title?",
+	itemSubtitle: "What's the item subtitle?",
+	itemContent: "What's the item content?",
+	sectionContent: "What's the section content?",
+
+	wantImage: "Do you want an image at the header?",
+	imageUrl: "Please enter the image url:",
+	validUrl: "The image URL doesn't contain a 'http'. Is it a valid url?",
+	imageAlt: "Please enter the image alternative text:",
+	editInfos: "Do you want to edit something?",
+	editInfosMore: "Do you want to edit something else?",
+	infoToEdit: "Wich info do you want to edit?",
+	editLocation: "What is your current location?",
+	editEmail: "What is your email?",
+	editProfile: "What profile do you want to add?",
+
+	divider: "Do you want a divider for header content?",
+	infoType: "Wich type of info do you want to add:",
+	infoContent: "Type the content, please:",
+	linkHref: "Now you need to type the link href:",
+	addNewInfo: "Do you want to add more infos?",
+
+	cvId: "What is this CV identifier?",
+	cvTheme: "What is this CV theme?",
+	cvLanguage: "What is this CV language?",
+}
