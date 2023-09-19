@@ -139,5 +139,5 @@ exports.startCLI = () => {
 		)
 	);
 	console.log(usage)
-	// yargs.showHelp();
+	yargs.showHelp();
 }

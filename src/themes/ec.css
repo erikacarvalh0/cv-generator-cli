@@ -1,0 +1,57 @@
+.ec {
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: -0.154px;
+}
+
+.ec .paper-container {
+	border-left: 10px solid #FF5681;
+	border-bottom: 10px solid #FF5681;
+}
+
+.ec .header__logo {
+	width: 28vw;
+	max-width: 230px;
+}
+
+.ec .header__info-text {
+	color: #43505C;
+}
+
+.ec .content__title {
+	color: #43505C;
+	font-family: "Josefin Sans";
+	letter-spacing: -0.198px;
+}
+
+.ec .content__text {
+	color: #576165;
+}
+
+.ec .content__text:first-letter {
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: "Josefin Sans";
+}
+
+.ec .content__list-item {
+	color: #576165;
+}
+
+.ec .content__list-item .bullet {
+	color: #1EBFC3;
+}
+
+.ec .content__list-experience .title {
+	color: #43505C;
+	font-family: "Josefin Sans";
+	letter-spacing: -0.198px;
+	text-transform: uppercase;
+}
+
+.ec .content__list-experience .date {
+	color: #43505C;
+	font-family: "Josefin Sans";
+	letter-spacing: -0.198px;
+}
