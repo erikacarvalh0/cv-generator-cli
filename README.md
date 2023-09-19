@@ -1,7 +1,7 @@
 
 # CV Generator CLI
 
-This project is a dynamic CV generator. You fill all the infos that you want in your resume and it's transformed in an HTML structure that allows you to generate a PDF by using the `print` function of the browser
+This project is a dynamic resume (a.k.a. CV) generator. You fill all the infos that you want in your resume and it's transformed in an HTML structure that allows you to generate a PDF by using the `print` function of the browser.
 
 It was created based on the [CV-Generator](https://github.com/erikacarvalh0/cv-generator) - wich requires you to manually fill the object with your infos.
 
@@ -35,12 +35,12 @@ The `cv-cli` allows you to pass the following options:
     -a, --imageAlt    |  Alt text for the image at the header                                             |   [string]
     -d, --divider     |  Divider between image and personal infos                                         |  [boolean]
     -l, --location    |  Add your location to the header                                                  |   [string]
-    -e, --email       |  Add a email to the header                                                        |   [string]
+    -e, --email       |  Add an email to the header                                                       |   [string]
     -p, --profile     |  Add a profile link to the header (your website, github or any profile you want)  |   [string]
     -m, --me          |  Add the content for a section with title About me                                |   [string]
-    -g, --language    |  Define this CV language                                                          |   [string]
-    -f, --identifier  |  Define this CV identifier                                                        |   [string]
-    -t, --theme       |  Define this CV theme                                                             |   [string]
+    -g, --language    |  Define this resume language                                                      |   [string]
+    -f, --identifier  |  Define this resume identifier                                                    |   [string]
+    -t, --theme       |  Define this resume theme                                                         |   [string]
 
 
 ### Usage example
@@ -56,10 +56,10 @@ In case you don't want to pass the infos as options, you'll be able to input the
 *Header*
 - `Do you want an image at the header?` - In case you want to add your photo or a logo image
 - `Please enter the image url:` - This is the path that will be used as source for `<img>`
-- `Please enter the image alternative text:` - For accessibility purposes, I strongly recommend you to add an alt text
+- `Please enter the image alternative text:` - For accessibility purposes, I strongly recommend you to add an alt text that describes the image of the previous prompt
 
 *Personal Infos*
-- `Do you want a divider for header content?` - This is a visual element to separate the image from your personal infos
+- `Do you want a divider for header content?` - This is a visual element (vertical line) to separate the image from your personal infos
 - `Wich type of info do you want to add:` - will be able to choose between "text" or "link"
 - `Type the content, please:` - this is the content of your info (your email, github profile, location, etc)
 - `Now you need to type the link href:` - in case you choose "link" previously, this is the href attribute to the `a` tag
@@ -78,7 +78,7 @@ These infos will be used to identify and style your resume:
 - `What is this CV language?`
 
 ## Theme
-To add a theme to your CV, you'll have to add a `.css` file to the `./src/themes` folder.
+To add a theme to your resume, you'll have to add a `.css` file to the `./src/themes` folder.
 
 The name of your file must be passed as the `-t` option or at the `What is this CV theme?` prompt (without the extension). 
 
